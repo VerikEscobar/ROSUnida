@@ -20,7 +20,7 @@ def move_turtle():
 
     # Establece la frecuencia de publicación en 10 Hz (cada 0.1 segundos)
     rate = rospy.Rate(10)  # 10 Hz
-    # Espera un poco para que el movimiento ocurra
+    # Espera el numero de segundos que asignas para que el movimiento ocurra
     rospy.sleep(2)
 
     # Detiene la tortuga
